@@ -10,6 +10,7 @@ use InvalidArgumentException;
  * Authentication & Authorization service.
  * Handles user roles, session security, password hashing (Argon2id),
  * and brute-force rate-limiting locks.
+ * 
  */
 final class Auth {
     private Store $store;
